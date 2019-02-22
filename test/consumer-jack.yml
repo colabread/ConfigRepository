@@ -1,4 +1,11 @@
 user:
-    userName: test/wlg
-    sex: 男
-    age: 18
+  userName: test/wlg
+  sex: 男
+  age: 18
+    
+server:
+  port: 8766
+  
+feign:
+  hystrix:
+    enabled: true #feign自带断路器，只需在此处打开
