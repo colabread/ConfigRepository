@@ -2,9 +2,6 @@ user:
   userName: test/dna
   sex: 男
   age: 18
-    
-server:
-  port: 8766
   
 feign:
   hystrix:
