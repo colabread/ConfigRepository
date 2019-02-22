@@ -2,7 +2,3 @@ user:
   userName: dev/wlg
   sex: 男
   age: 18
-  
-feign:
-  hystrix:
-    enabled: true #feign自带断路器，只需在此处打开
